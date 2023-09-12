@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir</title>
+    <link
+      rel="shortcut icon"
+      href="Img/icons8-scroll-94.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body style="background-color: aliceblue">
+    <div class="Pilihan Page" align="center">
+      <a href="index.html" class="active"> Home Page </a> |
+      <a href="multimedia.html" class="active"> Multimedia </a> |
+      <a href="iframe.html" class="active"> Link </a> |
+      <a href="formulir.html" class="active"> Form </a>
+    </div>
+    <hr />
+    <h1 align="center">Form</h1>
+    <hr />
+    <h3 align="center">Latihan Formulir</h3>
+    <form action="width: 30%" method="post">
+      <fieldset>
+        <legend style="text-align: center">Input Data</legend>
+        <table>
+          <tr>
+            <td width="120">Nama</td>
+            <td>: <input type="text" placeholder="Masukan Nama Lengkap"/></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>: <input type="password" placeholder="Masukan Password"/></td>
+          </tr>
+          <tr>
+            <td>Tanggal Lahir</td>
+            <td>: <input type="date" /></td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>: <input type="radio" name="jk" /> Laki-laki</td>
+            <td><input type="radio" name="jk" /> Perempuan</td>
+          </tr>
+          <tr>
+            <td>Nomor Telepon</td>
+            <td>: <input type="number" placeholder="Masukan Nomor Telepon"/></td>
+          </tr>
+          <tr>
+            <td>Asal Kota</td>
+            <td>
+              :
+              <select>
+                <option>Purwokerto</option>
+                <option>Cilacap</option>
+                <option>Semarang</option>
+                <option>Jogjakarta</option>
+                <option>Bandung</option>
+                <option>Jakarta</option>
+                <option>Surabaya</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td>: <textarea cols="30" rows="10" placeholder="Masukan Alamat Lengkap"></textarea></td>
+          </tr>
+          <tr>
+            <td>Hobi</td>
+            <td>: <input type="checkbox" />Membaca Buku</td>
+            <td><input type="checkbox" />Menulis</td>
+            <td><input type="checkbox" />Memancing</td>
+          </tr>
+          <tr>
+            <td>Makanan Favorite</td>
+            <td>
+              : <input type="text" id="hehe" name="makanan" list="enak" placeholder="Pilih Makanan Favorite"/>
+              <datalist id="enak">
+                <option value="Mie"></option>
+                <option value="Tempe Goreng dan Mendoan"></option>
+                <option value="bubur ayam"></option>
+                <option value="nasi goreng"></option>
+                <option value="Sayuran"></option>
+                <option value="Ayam Goreng"></option>
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" value="Submit" />
+              <input type="reset" value="reset" />
+              
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <br>
+    <center>
+      <input type="button" value="Next Page" />
+    </center>
+  </body>
+</html>

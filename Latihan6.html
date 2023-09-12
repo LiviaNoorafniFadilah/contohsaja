@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan 6</title>
+    <style>
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+
+        /*Menengahkan gambar*/
+        display: block;
+        margin: 0px auto 0px auto;
+      }
+      /*selector digunakan untuk memilih nama bagian dari HTML yang akan diubah*/
+      /* syntax CSS adalah selector {properti: value;}*/
+
+      /*selector dengan nama tag*/
+      h1{
+        color: black;
+      }
+      /*selector id*/
+      #judul{
+        color: orange;
+      }
+      /*selector class*/
+      .tengah{
+        align-self: center;
+        color: blue;
+      }
+      /*Multy selector*/
+      h2,h3,h4{
+        color: midnightblue;
+      }
+      /*lebih spesifiklagi bisa*/
+      h2.tengah{
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="Img/dudul muslimah.jpeg" alt="sidudul muslimah" />
+
+    <!-- id= memberi tanda khusus elemen, tidak boleh sama-->
+    <h1 id="judul">Ini Judul</h1>
+    <!-- class = bisa dipakai berkali-kali, kalau id tidak digunkan berkali-kali -->
+    <h1 class="tengah"> Ini Judul</h1>
+    <h2 class="tengah"> Hello </h2>
+    <h3>Hallo 3</h3>
+  </body>
+</html>

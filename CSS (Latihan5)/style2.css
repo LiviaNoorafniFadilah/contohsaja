@@ -1,0 +1,13 @@
+h1{
+    color: lightblue;
+    font-family: arial;
+    font-size: 50px;
+}
+p{
+    color: grey;
+    font-family: arial;
+}
+li{
+    font-size: 20px;
+    font-family: cursive;
+}
